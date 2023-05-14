@@ -16,9 +16,7 @@ Este projeto requer Python e as seguintes bibliotecas Python instaladas:
 Na sua linha de comando, execute:
 
 ```
-bashCopy code
 python nome_do_arquivo.py
-
 ```
 
 ## **Código**
