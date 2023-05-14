@@ -1,4 +1,27 @@
-## **CoinMarketCap API**
+# **CoinMarketCap API Scraper**
+
+Este projeto é um scraper simples para o site CoinMarketCap, criado para extrair dados sobre diferentes criptomoedas. Os dados são extraídos utilizando BeautifulSoup e requests em Python, e finalmente organizados em um DataFrame do pandas para fácil visualização e análise.
+
+## **Pré-requisitos**
+
+Este projeto requer Python e as seguintes bibliotecas Python instaladas:
+
+- **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+- **[requests](https://pypi.org/project/requests/)**
+- **[pandas](https://pypi.org/project/pandas/)**
+- **[re](https://docs.python.org/3/library/re.html)**
+
+## **Como executar**
+
+Na sua linha de comando, execute:
+
+```
+bashCopy code
+python nome_do_arquivo.py
+
+```
+
+## **Código**
 
 Este script de Python extrai os seguintes dados para cada moeda listada no CoinMarketCap:
 
@@ -24,4 +47,3 @@ Contribuições são bem-vindas! Para contribuir, por favor:
 3. Faça o Commit de suas mudanças (**`git commit -m 'Add some AmazingFeature'`**).
 4. Faça o Push para a Branch (**`git push origin feature/AmazingFeature`**).
 5. Abra uma Pull Request.
-
