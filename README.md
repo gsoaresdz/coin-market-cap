@@ -1,4 +1,4 @@
-## **Código**
+## **CoinMarketCap API**
 
 Este script de Python extrai os seguintes dados para cada moeda listada no CoinMarketCap:
 
