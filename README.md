@@ -1,25 +1,20 @@
+
 # **CoinMarketCap API Scraper**
 
 Este projeto é um scraper simples para o site CoinMarketCap, criado para extrair dados sobre diferentes criptomoedas. Os dados são extraídos utilizando BeautifulSoup e requests em Python, e finalmente organizados em um DataFrame do pandas para fácil visualização e análise.
 
 ## **Pré-requisitos**
 
-Este projeto requer Python e as seguintes bibliotecas Python instaladas:
+Este projeto requer:
+- Python 3.8 ou superior.
+- Jupyter Notebook como IDE recomendada.
+- As seguintes bibliotecas Python instaladas:
+  - **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
+  - **[requests](https://pypi.org/project/requests/)**
+  - **[pandas](https://pypi.org/project/pandas/)**
+  - **[re](https://docs.python.org/3/library/re.html)**
 
-- **[BeautifulSoup](https://pypi.org/project/beautifulsoup4/)**
-- **[requests](https://pypi.org/project/requests/)**
-- **[pandas](https://pypi.org/project/pandas/)**
-- **[re](https://docs.python.org/3/library/re.html)**
-
-## **Como executar**
-
-Na sua linha de comando, execute:
-
-```
-python nome_do_arquivo.py
-```
-
-## **Código**
+## **Regra de Negócio**
 
 Este script de Python extrai os seguintes dados para cada moeda listada no CoinMarketCap:
 
@@ -31,6 +26,13 @@ Este script de Python extrai os seguintes dados para cada moeda listada no CoinM
 - Variação percentual nos últimos 7 dias
 - Market Cap
 - Volume
+
+## **Como executar**
+
+1. Clone este repositório.
+2. Instale as bibliotecas necessárias mencionadas na seção de pré-requisitos.
+3. Abra o arquivo `main.ipynb` em um Jupyter Notebook.
+4. Execute todas as células do notebook para obter os dados do CoinMarketCap.
 
 ## **Problemas conhecidos**
 
