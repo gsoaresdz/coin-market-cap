@@ -136,8 +136,10 @@ $ jupyter notebook main.ipynb
 
 ## **:memo: Licença**
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](https://chatgpt.com/c/LICENSE).
+Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
 
 Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+
+&#xa0;
 
 <a href="#top">De volta ao topo</a>
