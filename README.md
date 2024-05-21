@@ -98,12 +98,6 @@ bash
 # Clone do projeto
 $ git clone https://github.com/gsoaresdz/coin-market-cap.git
 
-# Acesse o diretório do projeto
-$ cd coin-market-cap
-
-# Instale as dependências
-$ pip install -r requirements.txt
-
 # Execute o script
 $ jupyter notebook main.ipynb
 ```
