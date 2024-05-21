@@ -67,7 +67,6 @@ A segunda parte do código automatiza a busca de preços para as criptomoedas. O
 O código a seguir mostra como realizar a coleta e organizar os dados:
 
 ```python
-pythonCopy code
 import re
 import pandas as pd
 
