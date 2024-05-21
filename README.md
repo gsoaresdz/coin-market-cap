@@ -82,7 +82,7 @@ As seguintes ferramentas foram usadas neste projeto:
 - [Python](https://www.python.org/)
 - [Jupyter](https://jupyter.org/)
 - [Selenium](https://www.selenium.dev/)
-- Pandas
+- [Pandas](https://pandas.pydata.org/)
 - [Openpyxl](https://openpyxl.readthedocs.io/)
 
 ## **:white_check_mark: Requerimentos**
