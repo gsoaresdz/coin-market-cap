@@ -6,7 +6,9 @@
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a></p><br>## **:dart: Sobre**
+  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a></p><br>## 
+  
+## **:dart: Sobre**
 
 Este projeto consiste em um script Python que automatiza a busca de preços de criptomoedas na web e armazena os resultados em um arquivo Excel. O script utiliza as seguintes bibliotecas:
 
