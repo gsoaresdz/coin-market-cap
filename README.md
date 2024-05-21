@@ -1,4 +1,4 @@
-<h1 align="center">Automação de Busca de Preços de Criptomoedas</h1>
+<h1 align="center">CoinMarketCap API Scraper</h1>
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/coin-market-cap?color=56BEB8">
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/coin-market-cap?color=56BEB8">
