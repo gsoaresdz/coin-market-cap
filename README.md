@@ -1,51 +1,35 @@
-<h1 align="center">CoinMarketCap API Scraper</h1>
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/coin-market-cap?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/coin-market-cap?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/coin-market-cap?color=56BEB8">
-  <!--<img alt="License" src="https://img.shields.io/github/license/gsoaresdz/coin-market-cap?color=56BEB8">-->
-</p>
-<p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-execução">Execução</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
-  <a href="https://github.com/gsoaresdz" target="_blank">Autor</a>
-</p>
-<br>
+<h1 align="center">CoinMarketCap API Scraper</h1> <p align="center"> <img alt="Github top language" src="https://img.shields.io/github/languages/top/gsoaresdz/coin-market-cap?color=56BEB8"> <img alt="Github language count" src="https://img.shields.io/github/languages/count/gsoaresdz/coin-market-cap?color=56BEB8"> <img alt="Repository size" src="https://img.shields.io/github/repo-size/gsoaresdz/coin-market-cap?color=56BEB8"> <!--<img alt="License" src="https://img.shields.io/github/license/gsoaresdz/coin-market-cap?color=56BEB8">--> </p> <p align="center"> <a href="#dart-about">About</a> &#xa0; | &#xa0; <a href="#sparkles-features">Features</a> &#xa0; | &#xa0; <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0; <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0; <a href="#checkered_flag-execution">Execution</a> &#xa0; | &#xa0; <a href="#memo-license">License</a> &#xa0; | &#xa0; <a href="https://github.com/gsoaresdz" target="_blank">Author</a> </p> <br>
 
-## **:dart: Sobre**
+## **:dart: About**
 
-Este projeto consiste em um script Python que automatiza a busca de preços de criptomoedas na web e armazena os resultados em um DataFrame. O script utiliza as seguintes bibliotecas:
+This project is a Python script that automates the retrieval of cryptocurrency prices from the web and stores the results in a DataFrame. The script utilizes the following libraries:
 
-- **pandas:** para manipulação de dados.
-- **beautifulsoup4:** para fazer scraping das páginas web.
-- **requests:** para realizar requisições HTTP.
+- **pandas:** for data manipulation.
+- **beautifulsoup4:** for web scraping.
+- **requests:** for making HTTP requests.
 
-## **:memo: IDE e versão do Python**
+## **:memo: IDE and Python Version**
 
-O script foi desenvolvido no Jupyter Notebook com a versão 3.8 do Python.
+The script was developed using Jupyter Notebook with Python version 3.8.
 
-## **:memo: Regra de negócio**
+## **:memo: Business Rules**
 
-O script funciona da seguinte forma:
+The script operates as follows:
 
-1. Acessa a página da CoinMarketCap.
-2. Coleta os preços das criptomoedas especificadas.
-3. Armazena os resultados em um DataFrame.
+1. Accesses the CoinMarketCap webpage.
+2. Collects the prices of specified cryptocurrencies.
+3. Stores the results in a DataFrame.
 
-## **:memo: Passos executados no código**
+## **:memo: Steps Executed in the Code**
 
-O código é dividido em duas partes principais:
+The code is divided into two main parts:
 
-- Acesso à página da CoinMarketCap
-- Automação de Busca de Preços
+- Accessing the CoinMarketCap webpage
+- Automating Price Retrieval
 
-## **:memo: Acesso à página da CoinMarketCap**
+## **:memo: Accessing the CoinMarketCap Page**
 
-A primeira parte do código acessa a página da CoinMarketCap para buscar informações sobre criptomoedas. O código a seguir mostra como acessar a página:
+The first part of the code accesses the CoinMarketCap webpage to retrieve cryptocurrency information. The following code shows how the page is accessed:
 
 ```python
 import requests
@@ -58,13 +42,13 @@ site = BeautifulSoup(requisicao.text, 'html.parser')
 
 ## **:sparkles: Features**
 
-A segunda parte do código automatiza a busca de preços para as criptomoedas. O código funciona da seguinte forma:
+The second part of the code automates the price retrieval for cryptocurrencies. The code operates as follows:
 
-:heavy_check_mark: **Feature 1**: Acessa a página da CoinMarketCap e coleta os dados das criptomoedas listadas.
+:heavy_check_mark: **Feature 1**: Accesses the CoinMarketCap page and collects data for listed cryptocurrencies.
 
-:heavy_check_mark: **Feature 2**: Organiza os dados em um DataFrame pandas.
+:heavy_check_mark: **Feature 2**: Organizes the data into a pandas DataFrame.
 
-O código a seguir mostra como realizar a coleta e organizar os dados:
+The following code shows how the data is collected and organized:
 
 ```python
 import re
@@ -100,12 +84,11 @@ for linha in linhas:
 
 df = pd.DataFrame(moedas)
 display(df)
-
 ```
 
-## **:rocket: Tecnologias**
+## **:rocket: Technologies**
 
-As seguintes ferramentas foram usadas neste projeto:
+The following tools were used in this project:
 
 - [Python](https://www.python.org/)
 - [Jupyter](https://jupyter.org/)
@@ -113,33 +96,29 @@ As seguintes ferramentas foram usadas neste projeto:
 - [Requests](https://pypi.org/project/requests/)
 - [Pandas](https://pandas.pydata.org/)
 
-## **:white_check_mark: Requerimentos**
+## **:white_check_mark: Requirements**
 
-Antes de iniciar :checkered_flag:, você precisa ter [Git](https://git-scm.com/) e [Python](https://www.python.org/) instalados.
+Before starting :checkered_flag:, make sure you have [Git](https://git-scm.com/) and [Python](https://www.python.org/) installed.
 
-## **:checkered_flag: Execução**
+## **:checkered_flag: Execution**
 
 ```bash
-bash
-# Clone do projeto
+# Clone the project
 $ git clone https://github.com/gsoaresdz/coin-market-cap.git
 
-# Execute o script
+# Run the script
 $ jupyter notebook main.ipynb
-
 ```
 
-## **:memo: Observações**
+## **:memo: Notes**
 
-- O script foi desenvolvido para fins educacionais. Não é recomendado o uso do script para fins comerciais sem autorização dos sites.
-- O script pode ser modificado para atender a diferentes necessidades. Por exemplo, é possível alterar os seletores de XPath ou incluir novas funcionalidades.
+- This script was developed for educational purposes. It is not recommended to use the script for commercial purposes without proper authorization from the websites.
+- The script can be modified to meet different needs, such as changing the XPath selectors or adding new functionalities.
 
-## **:memo: Licença**
+## **:memo: License**
 
-Este projeto está sob licença do MIT. Para obter mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+This project is under the MIT license. For more details, see the [LICENSE](LICENSE) file.
 
-Feito com :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
+Made with :heart: by <a href="https://github.com/gsoaresdz" target="_blank">gsoaresdz</a>
 
-&#xa0;
-
-<a href="#top">De volta ao topo</a>
+<a href="#top">Back to top</a>
